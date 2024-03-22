@@ -33,14 +33,14 @@ export default function LandingPage() {
                         </div>
                         <div className="buttons mt-7 flex justify-center md:justify-start  gap-6">
                             <Button text='Find work opportunities' clicked={false} color={primaryColor} border />
-                            <Button text='I want to hire' color='#fff' object={<FontAwesomeIcon icon={faArrowRight} style={{marginLeft: '10px'}} />} clicked />
+                            <Button text='I want to hire' color='#fff' object={<FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: '10px' }} />} clicked />
                         </div>
                     </div>
                 </div>
                 <div className="advantages">
                     <div className="container mx-auto">
                         <h2 className="text-center py-20"><TextGradient text='Why WorkWave?' size='30px' weight='800' /></h2>
-                        <div className="boxes grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-10">
+                        <div className="boxes grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-5">
                             <LandingCard classes='box box1 flex flex-col justify-center text-center sm:text-left px-10 py-10 sm:py-2' color='#37B778' background='#37B77826' title='Security' desc='Reliable and secure payment system ensures timely transactions between freelancers and clients.' />
                             <div className="box box2 md:col-span-2">
                                 <img src={image1} alt="" style={{ width: '100%', height: '100%' }} />
@@ -67,7 +67,7 @@ export default function LandingPage() {
                         <div className="left w-full md:w-6/12 p-2 mb-10 md:mb-0">
                             <h3 className="text-3xl font-bold mb-5">Many categories just to set you up!</h3>
                             <p className="mb-10">We offer all the categories and fields that are available on the freelance market, you can start working in the field that you are skilled in, in just few clicks.</p>
-                            <Button text="Join us" color='#fff' object={<FontAwesomeIcon icon={faArrowRight} style={{marginLeft: '8px'}} />} clicked border />
+                            <Button text="Join us" color='#fff' object={<FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: '8px' }} />} clicked border />
                         </div>
                         <div className="right grid grid-cols-3 gap-3">
                             <div className="box p-4 text-center cursor-pointer">
@@ -91,7 +91,7 @@ export default function LandingPage() {
                                 <h5 className="mt-4 text-xs">Development</h5>
                             </div>
                             <div className="box p-4 text-center cursor-pointer flex justify-center items-center">
-                                <Button text='View more' color='#f9f7f38a' object={<FontAwesomeIcon icon={faArrowRight} style={{marginLeft: '8px'}} />} clicked />
+                                <Button text='View more' color='#f9f7f38a' object={<FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: '8px' }} />} clicked />
                             </div>
 
                         </div>
@@ -115,15 +115,15 @@ export default function LandingPage() {
                 <div className="categories">
                     <div className="container mx-auto my-32">
                         <div className="cont text-white ">
-                            <div className="flex flex-col md:flex-row justify-between gap-2 px-20 py-16">
-                            <div className="left w-full md:w-2/5 p-2">
-                                <h3 className="text-3xl font-bold mb-5">WorkWave is totally free!</h3>
-                                <p className="mb-10 font-bold">And finally, you don’t have to pay on additional services on WorkWave. Every user gets the full functionalities of WorkWave platform, which means that every user has the same chances, no pay for certification, no advertising services, and more.</p>
-                                <Button text="Join us now" color='#fff' object={<FontAwesomeIcon icon={faArrowRight} style={{marginLeft: '8px'}} />} clicked border />
-                            </div>
-                            <div className="right">
-                                <img src={require('../../../assets/freelogo.png')} alt="" />
-                            </div>
+                            <div className="flex flex-col md:flex-row justify-between items-center gap-2 px-20 py-16">
+                                <div className="left w-full md:w-3/6 p-2">
+                                    <h3 className="text-3xl font-bold mb-5 w-4/5">WorkWave is totally free!</h3>
+                                    <p className="mb-10 font-bold">And finally, you don’t have to pay on additional services on WorkWave. Every user gets the full functionalities of WorkWave platform, which means that every user has the same chances, no pay for certification, no advertising services, and more.</p>
+                                    <Button text="Join us now" color='#fff' object={<FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: '8px' }} />} clicked border />
+                                </div>
+                                <div className="right">
+                                    <img src={require('../../../assets/freelogo.png')} className="ml-auto" style={{ width: '80%' }} alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>

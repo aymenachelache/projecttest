@@ -19,7 +19,7 @@ export default function Button(props) {
                     padding: '8px 10px',
                     borderRadius: '16px'
                 }
-            }>{props.text}{props.object}</Link>
+            }><span>{props.text}</span>{props.object}</Link>
         </>
     );
 }

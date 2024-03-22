@@ -11,6 +11,13 @@
         margin-right: auto;
     }
 }
+@media ((min-width: 1024px)) {
+    .container {
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .primaryfont, h1, h2, h3, h4, h5, h6 {
     font-family: "Unbounded", sans-serif;

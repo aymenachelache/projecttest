@@ -9,15 +9,15 @@ export default function Button(props) {
                     color: `${props.color}`,
                     backgroundColor: `transparent`,
                     border: props.border && `2px solid ${props.color}`,
-                    padding: '8px 10px',
-                    borderRadius: '16px'
+                    padding: props.padding ? `${props.padding}` : "8px 10px",
+                    borderRadius: '14px'
                 } :
                 {
                     color: `#fff`,
                     backgroundColor: props.color,
                     border: `2px solid ${props.color}`,
-                    padding: '8px 10px',
-                    borderRadius: '16px'
+                    padding: props.padding ? `${props.padding}` : "8px 10px",
+                    borderRadius: '14px'
                 }
             }><span>{props.text}</span>{props.object}</Link>
         </>

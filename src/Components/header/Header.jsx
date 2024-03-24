@@ -63,7 +63,7 @@ export default function Header() {
                         </>
                     ) :
                         <>
-                            <FontAwesomeIcon onClick={shNavbar} icon={faBars} className='text-3xl p-5 order-1 cursor-pointer' style={{}} />
+                            <FontAwesomeIcon onClick={shNavbar} icon={faBars} className='text-3xl py-5 order-1 cursor-pointer' style={{}} />
                             <Button classes='primaryfont order-3' link={'/login'} text="Login" clicked={true} color={`${primaryColor}`} border />
                         </>
                     }
